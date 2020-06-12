@@ -1,5 +1,4 @@
-
-      body{
+body{
   
   background-color:red;  
 }
@@ -15,7 +14,7 @@ h1{
     width:30%;
     float:right;
     border:1px solid black;
-    margin:10px;
+    margin:12px;
     background-color:lightgreen;
     color:blue;
     position:relative;
@@ -24,16 +23,16 @@ h1{
     width:30%;
     float:right;
     border:1px solid black;
-    margin:10px;
+    margin:12px;
     background-color:lightgreen;
     color:blue;
     position:relative;
   }
   #p3{
     width:30%;
-    float:left;
+    float:right;
     border:1px solid black;
-    margin:10px;
+    margin:12px;
     background-color:lightgreen;
     color:blue;
     position:relative;
@@ -83,7 +82,7 @@ h1{
   }
   #p2{
     width: 45%;
-    float: left;
+    float: right;
     position: relative;
     border: 1px solid black;
     margin: 10px;
@@ -92,8 +91,8 @@ h1{
   }
   #p3{
     width: 50%;
-    float: left;
-    margin-left: 25%;
+    float: right;
+    margin-right: 25%;
     position: relative;
     top: 20px;
     border: 1px solid black;
