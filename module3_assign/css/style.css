@@ -11,13 +11,17 @@ body{
 	border:0;
 	height:80px;
 }
+.navbrand{
+	padding-top:25px;
+}
 .navbar-brand h1{
-	color:#557c3e;
-	font-size:1.5em;
+	color:red;
+	font-size:2.5em;
 	font-weight:bold;
 	text-shadow:1px 1px 1px #222;
 	margin-top:0;
 	margin-bottom:0;
 	line-height: .75;
+	margin-left:-10px;
 
 }
