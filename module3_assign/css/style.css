@@ -37,4 +37,8 @@ body{
 #nav-list a:hover{
 	background: #E7E7E7;
 }
+.main-content{
+	background: #b19cd9;
+	height:1000px
+}
 
