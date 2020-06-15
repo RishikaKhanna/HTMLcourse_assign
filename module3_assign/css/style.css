@@ -4,3 +4,9 @@ body{
 	font-family:'Oxygen', sans-serif;
 	color:#fff;
 }
+/** header **/
+#header-nav{
+	background-color: yellow;
+	border-radius:0;
+	border:0;
+}
