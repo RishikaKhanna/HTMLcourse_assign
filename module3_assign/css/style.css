@@ -37,17 +37,18 @@ body{
 #nav-list a:hover{
 	background: #E7E7E7;
 }
-.main-content{
-	background: #FF4500;
+#main-content{
+	background: orange;
 	height:1000px
 }
-.menu-title{
+#menu-title{
 	margin-bottom:15px;
 }
-.chicken{
+#chicken{
 	font-size:1.5em;
 	font-color:yellow;
 }
+
 	
 
 
