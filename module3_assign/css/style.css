@@ -15,7 +15,7 @@ body{
 	padding-top:25px;
 }
 .navbar-brand h1{
-	color:red;
+	color:#951C49;
 	font-size:2.5em;
 	font-weight:bold;
 	text-shadow:1px 1px 1px #222;
@@ -25,3 +25,15 @@ body{
 	margin-left:-10px;
 
 }
+#nav-list{
+	margin-top:10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align:center;
+	font-sixe:1.8em;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
