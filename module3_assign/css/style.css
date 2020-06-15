@@ -50,7 +50,10 @@ body{
 	font-weight:bold;
 	margin-bottom:20px;
 }
-
+.row{
+	background: orange;
+	font-color:blue;
+}
 	
 
 
