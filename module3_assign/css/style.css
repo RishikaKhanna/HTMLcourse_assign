@@ -38,7 +38,16 @@ body{
 	background: #E7E7E7;
 }
 .main-content{
-	background: #b19cd9;
+	background: #FF4500;
 	height:1000px
 }
+.menu-title{
+	margin-bottom:15px;
+}
+.chicken{
+	font-size:1.5em;
+	font-color:yellow;
+}
+	
+
 
