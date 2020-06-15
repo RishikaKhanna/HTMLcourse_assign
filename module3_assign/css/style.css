@@ -38,7 +38,7 @@ body{
 	background: #E7E7E7;
 }
 #main-content{
-	background: orange;
+	background-color: orange;
 	font-color:blue;
 }
 #menu-title{
@@ -51,7 +51,7 @@ body{
 	margin-bottom:20px;
 }
 .row{
-	background: orange;
+	background-color: orange;
 	font-color:blue;
 }
 	
