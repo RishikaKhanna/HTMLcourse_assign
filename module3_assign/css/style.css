@@ -38,15 +38,16 @@ body{
 	background: #E7E7E7;
 }
 #main-content{
-	background: #FF00FF;
-	height:1000px
+	background: orange;
+	font-color:blue;
 }
 #menu-title{
 	margin-bottom:15px;
 }
 #chicken{
 	font-size:1.5em;
-	font-color:yellow;
+	font-color:black;
+	font-weight:bold;
 }
 
 	
