@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Practice assign</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="basics.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<form class="center" action="#">
+		<h1>Enroll in Courses</h1>
+		<table border="1">
+			<tr>
+				<td class="label_col">Name:</td>
+				<td class="input_col"> <input type="text" id="name" onblur="validateName();" required></td>
+				<td class="feedback"><span id="nameprompt"></span></td>
+			</tr>
+			<tr>
+				<td class="label_col">Age:</td>
+				<td class="input_col"><input type="number" id="age" min="18" max="25"> </td>
+				<td class="feedback"><span id="ageprompt"></span></td>
+			</tr>
+			<tr>
+				<td class="label_col">Password:</td>
+				<td class="input_col"> <input type="password" name="Password" placeholder="xxxxxx"></td>
+				<td class="feedback"><span id="Passprompt"></span></td>
+			</tr>
+			<tr>
+				<td class="label_col">Skills to be learnt:</td>
+				<td class="input_col"> 
+		<input type="checkbox" name="skill" id="Python">python<br>
+		<input type="checkbox" name="skill" id="javascript">Javascript<br><input type="checkbox" name="skill" id="SQL">MySQL</td>
+				<td class="feedback"><span id="skillprompt"></span></td>
+			</tr>
+			<tr>
+				<td class="label_col">Platform preferred:</td>
+				<td class="input_col"> <input type="radio" name="platform" id="coursera">Coursera<br>
+		<input type="radio" name="platform" id="udemy">Udemy<br>
+		<input type="radio" name="platform" id="codeacademy">codeacademy</td>
+				<td class="feedback"><span id="platformprompt"></span></td>
+			</tr>
+			<tr>
+				<td class="label_col">color:</td>
+				<td class="input_col">color: <input type="color" name="backgroundcolor"></td>
+				<td class="feedback"><span id="colorprompt"></span></td>
+			</tr>
+			<tr><td class="Button" id="Button" colspan="3"><span class="buttonBG" onclick="displayOrder();">Order Now</span></td></tr>
+	</table>
+	<span id="order"></span>
+
+	</form>
+	
+	
+</body>
+</html>
