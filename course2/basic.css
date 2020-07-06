@@ -1,0 +1,13 @@
+body{
+	background-color: #FFF8DC;
+}
+.center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:15%;
+	margin-bottom: 20px;
+}
+.buttonBG{
+	background-color: grey;
+}
